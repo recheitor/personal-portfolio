@@ -81,9 +81,7 @@ const Background = ({ language }) => {
                                             </div>
                                         </Col>
                                     </Row>
-
                                 </Col>
-
 
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
@@ -123,8 +121,8 @@ const Background = ({ language }) => {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col xs='4' lg='5' className='text-end ms-4'>
-                            {language === 'ENG' ? <h3>Some <span>academic</span> background and <span>career</span> experience</h3> : <h3>Algo de formación <span>academica</span> y experiencia <span>laboral</span></h3>}
+                        <Col xs='5' lg='5' className='text-center ms-4'>
+                            {language === 'ENG' ? <h3>Relevant <span>academic</span> background and <span>career</span> experience</h3> : <h3>Formación <span>académica</span> y experiencia <span>laboral</span> relevante</h3>}
 
                         </Col>
                     </Row >

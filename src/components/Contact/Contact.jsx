@@ -40,7 +40,7 @@ const Contact = ({ language }) => {
                                     name="message"
                                     style={{ overflow: 'hidden', paddingBottom: '170px' }}
                                     className="form-style mt-3"
-                                    placeholder={language === 'ENG' ? 'How can i help you?' : 'En que te puedo ayudar?'}
+                                    placeholder={language === 'ENG' ? 'How can i help you?' : '¿En que te puedo ayudar?'}
                                 />
                                 <ValidationError
                                     prefix="Message"
