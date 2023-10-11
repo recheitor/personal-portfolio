@@ -1,4 +1,5 @@
 import Background from '../../components/Background/Background'
+import Contact from '../../components/Contact/Contact'
 import Intro from '../../components/Intro/Intro'
 import Projects from '../../components/Projects/Projects'
 import Qualities from '../../components/Qualities/Qualities'
@@ -34,6 +35,13 @@ const HomePage = () => {
                 <Col xs='12' lg='12'>
                     <section id="projects-section">
                         <Projects />
+                    </section>
+                </Col>
+            </Row >
+            <Row>
+                <Col xs='12' lg='12'>
+                    <section id="contact-me-section">
+                        <Contact />
                     </section>
                 </Col>
             </Row >
