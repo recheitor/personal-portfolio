@@ -9,7 +9,6 @@ const HomePage = () => {
 
     return (
         <>
-
             <Row className='justify-content-center'>
                 <Col xs='12' lg='12'>
                     <section id='intro-blank-section'>
