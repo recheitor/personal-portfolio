@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { useForm, ValidationError } from '@formspree/react';
 import { useState } from 'react';
 
-const Contact = () => {
+const Contact = ({ language }) => {
     const [state, handleSubmit] = useForm("xzblydjk");
     const [hasContacted, setHasContacted] = useState(undefined)
     if (!hasContacted && state.succeeded) {
@@ -18,7 +18,8 @@ const Contact = () => {
             <Col md='7' xs='11' className='text-center'>
 
                 <div className="card-3d-wrap">
-                    <h3><span>Contact </span>me</h3>
+                    {language === 'ENG' ? <h3><span>Contact </span>me</h3> : <h3><span>Contáctame </span></h3>}
+
                     {
                         !state.succeeded ?
                             <form onSubmit={handleSubmit} className='form-group'>
@@ -27,7 +28,7 @@ const Contact = () => {
                                     type="email"
                                     name="email"
                                     className="form-style "
-                                    placeholder="Your email"
+                                    placeholder={language === 'ENG' ? 'Your email' : 'Tu email'}
                                 />
                                 <ValidationError
                                     prefix="Email"
@@ -39,7 +40,7 @@ const Contact = () => {
                                     name="message"
                                     style={{ overflow: 'hidden', paddingBottom: '170px' }}
                                     className="form-style mt-3"
-                                    placeholder="Tell me something!"
+                                    placeholder={language === 'ENG' ? 'How can i help you?' : 'En que te puedo ayudar?'}
                                 />
                                 <ValidationError
                                     prefix="Message"
@@ -47,7 +48,7 @@ const Contact = () => {
                                     errors={state.errors}
                                 />
                                 <button type="submit" disabled={state.submitting} className="btn mt-4 mb-2">
-                                    Submit
+                                    {language === 'ENG' ? 'Submit' : 'Enviar'}
                                 </button>
                             </form>
                             :

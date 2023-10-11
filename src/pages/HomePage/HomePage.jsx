@@ -5,7 +5,7 @@ import Projects from '../../components/Projects/Projects'
 import Qualities from '../../components/Qualities/Qualities'
 import './HomePage.css'
 import { Col, Container, Row } from 'react-bootstrap'
-const HomePage = () => {
+const HomePage = ({ language }) => {
 
     return (
         <>
@@ -18,29 +18,29 @@ const HomePage = () => {
             <Row>
                 <Col xs='12' lg='12'>
                     <section>
-                        <Intro />
+                        <Intro language={language} />
                     </section>
                 </Col>
             </Row>
             <Row className='justify-content-center'>
                 <Col xs='12' lg='10'>
                     <section id="about-me-section" >
-                        <Qualities />
-                        <Background />
+                        <Qualities language={language} />
+                        <Background language={language} />
                     </section>
                 </Col>
             </Row >
             <Row>
                 <Col xs='12' lg='12'>
                     <section id="projects-section">
-                        <Projects />
+                        <Projects language={language} />
                     </section>
                 </Col>
             </Row >
             <Row>
                 <Col xs='12' lg='12'>
                     <section id="contact-me-section">
-                        <Contact />
+                        <Contact language={language} />
                     </section>
                 </Col>
             </Row >

@@ -1,9 +1,9 @@
 import { Col, Row, } from 'react-bootstrap'
 import './Background.css'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 
-const Background = () => {
+const Background = ({ language }) => {
 
     useEffect(() => {
         const checkbox = document.getElementById('rotate-checkbox');
@@ -67,7 +67,7 @@ const Background = () => {
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
                                         <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
-                                            <h4>Zimvie - CNC Programmer</h4>
+                                            <h4>{language === 'ENG' ? 'Zimvie - CNC Programmer' : 'Zimvie - Programador CNC'}</h4>
                                         </Col>
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox" />
@@ -77,7 +77,7 @@ const Background = () => {
                                         </Col>
                                         <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
                                             <div className="additional-info" id="additional-info">
-                                                <p>13 years G-Code experience</p>
+                                                <p>{language === 'ENG' ? '13 years G-Code experience' : '10 años de experiencia con código G'}</p>
                                             </div>
                                         </Col>
                                     </Row>
@@ -88,7 +88,7 @@ const Background = () => {
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
                                         <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
-                                            <h4>IronHack - Web Development</h4>
+                                            <h4>{language === 'ENG' ? 'IronHack - Web Development' : 'IronHack - Desarrollo Web'}</h4>
                                         </Col>
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox2" />
@@ -106,7 +106,7 @@ const Background = () => {
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
                                         <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
-                                            <h4>Coursera - Web Development</h4>
+                                            <h4>{language === 'ENG' ? 'Coursera - Web Development' : 'Coursera - Desarrollo Web'}</h4>
                                         </Col>
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox3" />
@@ -124,7 +124,8 @@ const Background = () => {
                             </Row>
                         </Col>
                         <Col xs='4' lg='5' className='text-end ms-4'>
-                            <h3>Some <span>academic</span> background and <span>career</span> experience</h3>
+                            {language === 'ENG' ? <h3>Some <span>academic</span> background and <span>career</span> experience</h3> : <h3>Algo de formación <span>academica</span> y experiencia <span>laboral</span></h3>}
+
                         </Col>
                     </Row >
 
