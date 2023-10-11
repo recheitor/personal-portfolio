@@ -8,7 +8,7 @@
 
 .intro {
     padding-top: 70px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     background: radial-gradient(ellipse closest-side at 60% 50%, rgb(21, 247, 187), #ffffff);
 }
 
@@ -38,6 +38,7 @@
 
     .intro {
         background: radial-gradient(ellipse closest-side at 67% 40%, rgb(21, 247, 187), #ffffff);
+        padding-bottom: 10px;
     }
 
     .intro h2,
