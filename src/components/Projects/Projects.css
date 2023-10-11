@@ -9,8 +9,26 @@
     border-radius: 10px;
     font-family: 'Lexend', sans-serif;
     font-size: 1.3em;
-
+    margin: 10px;
 }
+
+.projects-card-mini img {
+    margin-top: 10px;
+    width: 95%;
+    border-radius: 8px;
+}
+
+.projects-card-mini h4 {
+    margin-top: 10px;
+}
+
+.projects-card-mini h5 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+
 
 .projects-card h3,
 .projects-card span {
@@ -26,10 +44,28 @@
 
 @media (max-width: 600px) {
 
+    .projects-card {
+        padding: 0;
+        margin: 0;
+        border-radius: 0px;
+    }
+
     .projects-card h3,
     .projects-card span {
         font-size: 1.3em;
     }
+
+    .projects-card-mini {
+        margin: 0;
+    }
+
+    .projects-card-mini h5 {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 0.8em;
+        margin-bottom: 15px;
+    }
+
 
 
 }
