@@ -30,7 +30,7 @@
 @media (max-width: 600px) {
 
     .intro {
-        background: radial-gradient(ellipse closest-side at 67% 50%, rgba(149, 242, 217, 1), #ffffff);
+        background: radial-gradient(ellipse closest-side at 67% 40%, rgba(149, 242, 217, 1), #ffffff);
     }
 
     .intro h2,
