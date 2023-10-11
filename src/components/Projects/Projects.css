@@ -1,4 +1,6 @@
 .projects-card {
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: rgba(184, 205, 248, 0.7);
     border-radius: 10px;
 }
