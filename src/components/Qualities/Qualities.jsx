@@ -8,7 +8,8 @@ const Qualities = () => {
 
     return (
         <>
-            <div className='background-blur'>
+
+            <Container className='background-blur'>
 
                 <Row className='qualities-title justify-content-center'>
                     <Col xs='10' lg='6' className='qualities-title-bottom text-center'>
@@ -16,7 +17,7 @@ const Qualities = () => {
                         <h2>of my <span>qualities</span></h2>
                     </Col>
                 </Row>
-                <Row className='qualities justify-content-center'>
+                <Row className='qualities justify-content-evenly' >
                     <Col xs='5' lg='2' className='qualities-card text-center'>
                         <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697020804/zok1mfwdyrudnmmwmk08.png" alt="" />
                         <h4>Teamwork</h4>
@@ -35,8 +36,9 @@ const Qualities = () => {
                     </Col>
                 </Row >
 
+            </Container>
 
-            </div>
+
 
         </>
     )

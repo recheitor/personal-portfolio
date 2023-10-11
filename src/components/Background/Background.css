@@ -1,0 +1,94 @@
+.rotate-label {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.rotate-label img {
+    width: 100%;
+    height: 100%;
+}
+
+#rotate-checkbox,
+#rotate-checkbox2,
+#rotate-checkbox3 {
+    display: none;
+}
+
+#rotate-checkbox:checked+.rotate-label,
+#rotate-checkbox2:checked+.rotate-label,
+#rotate-checkbox3:checked+.rotate-label {
+    transform: rotate(90deg);
+}
+
+
+
+.background-card {
+    background: linear-gradient(to right, rgba(149, 242, 217, 0.7), transparent);
+    height: 400px;
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.background-card-mini {
+    height: 80px;
+    margin: 20px;
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.3em;
+}
+
+
+.background-card-mini h4 {
+    margin: 25px;
+}
+
+.background-title {
+    margin-top: 50px;
+}
+
+.background-title h4 {
+    font-size: 0.9em;
+}
+
+.background-title h3,
+.background-title span {
+    font-size: 3.2em;
+    font-family: 'Lexend', sans-serif;
+}
+
+.background-title span {
+    font-size: 1.2em;
+    color: #1af1b0;
+}
+
+
+
+@media (max-width: 600px) {
+    .background-card {
+        background: linear-gradient(to right, rgba(149, 242, 217, 0.7), transparent);
+        height: 420px;
+        box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 0px;
+    }
+
+
+    .background-card-mini {
+        height: 110px;
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.1em;
+    }
+
+    .background-title h3,
+    .background-title span {
+        font-size: 1.3em;
+        font-family: 'Lexend', sans-serif;
+    }
+
+    .text-end {
+        margin-right: 20px;
+    }
+}

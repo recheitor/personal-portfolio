@@ -6,11 +6,8 @@
     background: linear-gradient(to right, rgba(157, 141, 241, 1), transparent);
     padding-right: 600px;
     padding-left: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     margin: 0;
 }
-
 
 .navi {
     position: fixed;
@@ -30,7 +27,7 @@
 
 .nav-sections {
     font-family: 'Lexend', sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 1.3em;
     position: relative;
 }
@@ -63,26 +60,36 @@
 .nav-language a {
     font-size: 2em;
 
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: black;
+    margin: 0;
 }
 
 @media (max-width: 600px) {
 
     .nav-my-name h3 {
         font-size: 1.2em;
-        padding-right: 150px;
+        padding-right: 130px;
         padding-left: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
     .nav-sections {
+        padding-top: 2px;
         font-size: 0.8em;
+        font-weight: 500;
         text-align: center;
     }
 
     .nav-language a {
+        font-family: 'Lexend', sans-serif;
+        font-weight: 300;
         font-size: 0.8em;
-        justify-content: end;
+        color: black;
         margin: 0;
+        margin-top: 2px;
     }
 }

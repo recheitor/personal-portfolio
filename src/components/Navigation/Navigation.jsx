@@ -31,9 +31,10 @@ const Navigation = () => {
                         </Col>
                     </Row>
                 </Col>
-                <Col xs='2' lg='2' className='nav-language text-end' >
-                    <Link to={'#'}>🇪🇸</Link>
-                    <Link to={'#'}>🇺🇸</Link>
+                <Col xs='2' lg='2' className='nav-language d-flex align-items-center justify-content-center' >
+                    <Link to={'#'}>ESP</Link>
+                    <Link className='me-1 ms-1'> · </Link>
+                    <Link to={'#'}>ENG</Link>
                 </Col>
             </Row >
 

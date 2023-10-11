@@ -1,9 +1,9 @@
+import Background from '../../components/Background/Background'
 import Intro from '../../components/Intro/Intro'
 import Projects from '../../components/Projects/Projects'
 import Qualities from '../../components/Qualities/Qualities'
 import './HomePage.css'
 import { Col, Container, Row } from 'react-bootstrap'
-
 const HomePage = () => {
 
     return (
@@ -24,8 +24,9 @@ const HomePage = () => {
             </Row>
             <Row>
                 <Col xs='12' lg='12'>
-                    <section id="projects-section">
+                    <section id="about-me-section">
                         <Qualities />
+                        <Background />
                     </section>
                 </Col>
             </Row >

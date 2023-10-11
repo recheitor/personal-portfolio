@@ -7,9 +7,12 @@
 }
 
 .background-blur {
-    margin-top: 40px;
-    height: 400px;
-    background: radial-gradient(circle, #B8CDF8 1%, #ffffff 40%);
+    margin-bottom: 50px;
+    padding-top: 20px;
+    height: 450px;
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: linear-gradient(to left, #B8CDF8 1%, transparent);
 }
 
 .qualities-card {
@@ -29,11 +32,12 @@
 
 .qualities-title h2,
 .qualities-title span {
+    font-size: 3.2em;
     font-family: 'Lexend', sans-serif;
 }
 
 .qualities-title span {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #9D8DF1;
 }
 
@@ -53,7 +57,9 @@
 
 
     .background-blur {
-        margin-top: 20px;
+        margin-top: 50px;
+        height: 400px;
+        background: linear-gradient(to left, #B8CDF8 1%, transparent);
 
     }
 
@@ -71,7 +77,7 @@
         height: 120px;
         box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
 }

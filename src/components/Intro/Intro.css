@@ -7,6 +7,7 @@
 }
 
 .intro {
+    margin-top: 50px;
     background: radial-gradient(ellipse closest-side at 60% 50%, rgba(149, 242, 217, 1), #ffffff);
 }
 
