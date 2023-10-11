@@ -16,7 +16,7 @@ const Projects = () => {
                         </Col>
                     </Row>
                     <Row className='justify-content-evenly mt-2 mb-4'>
-                        <Col xs='10' lg='3' className='projects-card-mini text-center mt-2'>
+                        <Col xs='10' lg='3' className='projects-card-mini text-center mt-3'>
                             <h4>COMPI ROOMS</h4>
                             <a href="https://compirooms.netlify.app/" target="_blank"><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697036164/czuemis1mfinxmuhgpbs.jpg" alt="Project screenshot" /></a>
                             <h4>Developed with:</h4>
@@ -24,13 +24,13 @@ const Projects = () => {
                             <h5>ReactJS - NodeJS</h5>
                         </Col>
 
-                        <Col xs='10' lg='3' className='projects-card-mini text-center mt-2'>
+                        <Col xs='10' lg='3' className='projects-card-mini text-center mt-3'>
                             <h4>ONLY PIZZAS</h4>
                             <a href="https://onlypizzas.fly.dev/" target="_blank"><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697036131/uiriutfupwqjhlgwejf7.jpg" alt="Project screenshot" /></a>
                             <h4>Developed with:</h4>
                             <h5>ExpressJS - MongoDB - NodeJS</h5>
                         </Col>
-                        <Col xs='10' lg='3' className='projects-card-mini text-center mt-2'>
+                        <Col xs='10' lg='3' className='projects-card-mini text-center mt-3'>
                             <h4>JUMPER TRAVELER</h4>
                             <a href="https://recheitor.github.io/M1Project/" target="_blank">  <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697036184/otd2rhxmrgor55qrmtyg.jpg" alt="Project screenshot" /></a>
                             <h4>Developed with:</h4>
