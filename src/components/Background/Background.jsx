@@ -67,7 +67,7 @@ const Background = ({ language }) => {
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
                                         <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
-                                            <h4>{language === 'ENG' ? 'Zimvie - CNC Programmer' : 'Zimvie - Programador CNC'}</h4>
+                                            <h4>{language === 'ENG' ? 'Zimvie CNC Programmer' : 'Zimvie Programador CNC'}</h4>
                                         </Col>
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox" />
@@ -77,7 +77,7 @@ const Background = ({ language }) => {
                                         </Col>
                                         <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
                                             <div className="additional-info" id="additional-info">
-                                                <p>{language === 'ENG' ? '13 years G-Code experience' : '10 años de experiencia con código G'}</p>
+                                                <p>{language === 'ENG' ? '13 years G-Code experience' : '13 años con código G'}</p>
                                             </div>
                                         </Col>
                                     </Row>
@@ -88,7 +88,7 @@ const Background = ({ language }) => {
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
                                         <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
-                                            <h4>{language === 'ENG' ? 'IronHack - Web Development' : 'IronHack - Desarrollo Web'}</h4>
+                                            <h4>{language === 'ENG' ? 'IronHack Web Development' : 'IronHack Desarrollo Web'}</h4>
                                         </Col>
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox2" />
@@ -98,7 +98,7 @@ const Background = ({ language }) => {
                                         </Col>
                                         <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
                                             <div className="additional-info2" id="additional-info2">
-                                                <p>360h JavaScript MERN bootcamp</p>
+                                                <p>360h JavaScript MERN</p>
                                             </div>
                                         </Col>
                                     </Row>
@@ -106,7 +106,7 @@ const Background = ({ language }) => {
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
                                         <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
-                                            <h4>{language === 'ENG' ? 'Coursera - Web Development' : 'Coursera - Desarrollo Web'}</h4>
+                                            <h4>{language === 'ENG' ? 'Coursera Web Development' : 'Coursera Desarrollo Web'}</h4>
                                         </Col>
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox3" />
