@@ -9,7 +9,7 @@
 .background-blur {
     margin-top: 40px;
     height: 400px;
-    background: radial-gradient(ellipse farthest-side at 40% 50%, #B8CDF8, #ffffff);
+    background: radial-gradient(circle, #B8CDF8 1%, #ffffff 40%);
 }
 
 .qualities-card {
@@ -46,7 +46,7 @@
 @media (max-width: 600px) {
 
     .qualities-title h2 {
-        font-size: 1em;
+        font-size: 1.3em;
         margin-bottom: 0;
     }
 

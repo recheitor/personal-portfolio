@@ -28,12 +28,13 @@
 @media (max-width: 600px) {
 
     .intro {
+        margin-top: 20px;
         background: radial-gradient(ellipse closest-side at 67% 50%, rgba(149, 242, 217, 1), #ffffff);
     }
 
     .intro h2,
     .intro h3 {
-        font-size: 1.3em;
+        font-size: 1.7em;
         margin-bottom: 0px;
     }
 

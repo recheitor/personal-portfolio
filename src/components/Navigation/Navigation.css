@@ -68,8 +68,7 @@
 @media (max-width: 600px) {
 
     .nav-my-name h3 {
-        font-size: 1em;
-
+        font-size: 1.2em;
         padding-right: 150px;
         padding-left: 10px;
         padding-top: 10px;
@@ -77,8 +76,7 @@
     }
 
     .nav-sections {
-        font-weight: bold;
-        font-size: 0.5em;
+        font-size: 0.8em;
         text-align: center;
     }
 

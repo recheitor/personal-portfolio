@@ -11,7 +11,7 @@ const Qualities = () => {
             <div className='background-blur'>
 
                 <Row className='qualities-title justify-content-center'>
-                    <Col xs='6' lg='6' className='qualities-title-bottom text-center'>
+                    <Col xs='10' lg='6' className='qualities-title-bottom text-center'>
                         <h2>This are some</h2>
                         <h2>of my <span>qualities</span></h2>
                     </Col>

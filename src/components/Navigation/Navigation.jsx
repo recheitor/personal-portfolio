@@ -13,20 +13,20 @@ const Navigation = () => {
         <>
 
             <Row className='navi justify-content-between align-items-center'>
-                <Col xs='4' lg='4'>
+                <Col xs='2' lg='4'>
                     <div className='nav-my-name'>
                         <a href="#intro-blank-section"> <h3>A.Reche</h3></a>
                     </div>
                 </Col>
                 <Col xs='6' lg='6' >
-                    <Row className='nav-sections justify-content-center'>
-                        <Col xs='3' lg='3' className='me-2'>
+                    <Row className='nav-sections justify-content-around'>
+                        <Col xs='2' lg='3'>
                             <a href="#about-me-section">ABOUT</a>
                         </Col>
-                        <Col xs='3' lg='3' >
+                        <Col xs='3' lg='3' className='me-2' >
                             <a href="#projects-section">PROJECTS</a>
                         </Col>
-                        <Col xs='3' lg='3' className=' ms-2'>
+                        <Col xs='3' lg='3' >
                             <a href="#contact-me-section">CONTACT</a>
                         </Col>
                     </Row>
