@@ -59,6 +59,7 @@
     .background-blur {
         margin-top: 50px;
         height: 400px;
+        border-radius: 0px;
         background: linear-gradient(to left, #B8CDF8 1%, transparent);
 
     }

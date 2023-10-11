@@ -22,9 +22,9 @@ const HomePage = () => {
                     </section>
                 </Col>
             </Row>
-            <Row>
-                <Col xs='12' lg='12'>
-                    <section id="about-me-section">
+            <Row className='justify-content-center'>
+                <Col xs='12' lg='10'>
+                    <section id="about-me-section" >
                         <Qualities />
                         <Background />
                     </section>

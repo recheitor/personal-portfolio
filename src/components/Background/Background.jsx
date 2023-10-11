@@ -11,8 +11,8 @@ const Background = () => {
 
 
 
-            <Row className='justify-content-center'>
-                <Col xs='12' lg='8'>
+            <Row className='justify-content-center mb-5'>
+                <Col xs='12' lg='12'>
                     <Row className='justify-content-center background-title background-card align-items-center'>
                         <Col xs='6' lg='5'>
                             <Row>
@@ -57,7 +57,7 @@ const Background = () => {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col xs='5' lg='5' className='text-end'>
+                        <Col xs='4' lg='5' className='text-end ms-4'>
                             <h3>Some <span>academic</span> background and <span>career</span> experience</h3>
                         </Col>
                     </Row >
