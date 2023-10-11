@@ -1,14 +1,13 @@
 import { Col, Container, Navbar, Row, } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import './Projects.css'
+import './Qualities.css'
 
 
-const Projects = () => {
+const Qualities = () => {
 
 
     return (
         <>
-
             <Row className=''>
 
             </Row>
@@ -18,4 +17,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Qualities

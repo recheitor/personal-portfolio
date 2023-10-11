@@ -30,15 +30,14 @@
 
 .nav-sections {
     font-family: 'Lexend', sans-serif;
-    font-weight: 500;
-    font-size: 1em;
+    font-weight: 800;
+    font-size: 1.3em;
     position: relative;
 }
 
 .nav-sections a {
     color: black;
     position: relative;
-    /* Add relative positioning to the anchor elements */
     transition: color 0.3s;
 }
 
@@ -74,5 +73,17 @@
         padding-left: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    .nav-sections {
+        font-weight: 300;
+        font-size: 0.5em;
+        text-align: center;
+    }
+
+    .nav-language a {
+        font-size: 0.8em;
+        justify-content: end;
+        margin: 0;
     }
 }
