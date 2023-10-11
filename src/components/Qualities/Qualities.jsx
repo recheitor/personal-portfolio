@@ -8,10 +8,35 @@ const Qualities = () => {
 
     return (
         <>
-            <Row className=''>
+            <div className='background-blur'>
 
-            </Row>
+                <Row className='qualities-title justify-content-center'>
+                    <Col xs='6' lg='6' className='qualities-title-bottom text-center'>
+                        <h2>This are some</h2>
+                        <h2>of my <span>qualities</span></h2>
+                    </Col>
+                </Row>
+                <Row className='qualities justify-content-center'>
+                    <Col xs='5' lg='2' className='qualities-card text-center'>
+                        <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697020804/zok1mfwdyrudnmmwmk08.png" alt="" />
+                        <h4>Teamwork</h4>
+                    </Col >
+                    <Col xs='5' lg='2' className='qualities-card text-center'>
+                        <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697020804/n2rrjxqyxe9j4imgzrn2.png" alt="" />
+                        <h4>Problem-solving</h4>
+                    </Col>
+                    <Col xs='5' lg='2' className='qualities-card text-center'>
+                        <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697020804/auyikyqsqrcbm1efla3c.png" alt="" />
+                        <h4>Time Management</h4>
+                    </Col>
+                    <Col xs='5' lg='2' className='qualities-card text-center'>
+                        <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697020804/pd9kyv0o3jxqe9bo9bnm.png" alt="" />
+                        <h4>Communication Skills</h4>
+                    </Col>
+                </Row >
 
+
+            </div>
 
         </>
     )

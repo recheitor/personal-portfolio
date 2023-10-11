@@ -8,7 +8,7 @@ const Intro = () => {
 
     return (
         <>
-            <Row className='intro justify-content-around align-items-center'>
+            <Row className='intro justify-content-center align-items-center'>
                 <Col xs='6' lg='6' className='intro-name d-flex flex-column align-items-center' >
                     <h2>Hi! My name is</h2>
                     <div className='my-name'>

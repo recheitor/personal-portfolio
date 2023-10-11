@@ -19,7 +19,7 @@ const Navigation = () => {
                     </div>
                 </Col>
                 <Col xs='6' lg='6' >
-                    <Row className='nav-sections justify-content-around'>
+                    <Row className='nav-sections justify-content-center'>
                         <Col xs='3' lg='3' className='me-2'>
                             <a href="#about-me-section">ABOUT</a>
                         </Col>

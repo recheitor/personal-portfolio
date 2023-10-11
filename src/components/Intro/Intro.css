@@ -13,8 +13,8 @@
 .intro h2,
 .intro h3 {
     font-family: 'Lexend', sans-serif;
-    font-weight: 800;
-    font-size: 3em;
+    font-weight: 500;
+    font-size: 5em;
 }
 
 .intro h3 {
@@ -33,7 +33,7 @@
 
     .intro h2,
     .intro h3 {
-        font-size: 1em;
+        font-size: 1.3em;
         margin-bottom: 0px;
     }
 
