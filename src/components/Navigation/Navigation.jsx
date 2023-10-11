@@ -97,7 +97,7 @@ const Navigation = ({ language, setLanguage }) => {
                 </ul>
             </nav>
 
-            <div class="overlay"></div>
+            <div className="overlay"></div>
 
 
 

@@ -9,7 +9,12 @@ const Contact = ({ language }) => {
     const [state, handleSubmit] = useForm("xzblydjk");
     const [hasContacted, setHasContacted] = useState(undefined)
     if (!hasContacted && state.succeeded) {
-        setHasContacted('Message succesfully sent. I will contact you as soon as possible :)')
+        setHasContacted(
+            language === 'ENG' ?
+                'Message succesfully sent. I will contact you as soon as possible :)'
+                :
+                'Se ha enviado tu mensaje. Te contactaré lo antes posible :)'
+        )
     }
 
     return (
