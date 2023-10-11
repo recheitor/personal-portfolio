@@ -16,7 +16,8 @@ const Intro = ({ language }) => {
                     </div>
 
                     {language === 'ENG' ? <h4>I'm a Web Developer Full Stack</h4> : <h4>Soy Desarrollador Web Full Stack</h4>}
-
+                    <div id="about-me-section">
+                    </div>
 
 
                 </Col>
