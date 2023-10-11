@@ -15,6 +15,10 @@ const Intro = ({ language }) => {
                         <h3>Alejandro Reche</h3>
                     </div>
 
+                    {language === 'ENG' ? <h4>I'm a Web Developer Full Stack</h4> : <h4>Soy Desarrollador Web Full Stack</h4>}
+
+
+
                 </Col>
                 <Col xs='4' lg='5'>
                     <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1696999589/nqteiuksm2ybomaom3ks.png" alt="" />

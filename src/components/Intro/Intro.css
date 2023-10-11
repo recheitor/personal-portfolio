@@ -13,18 +13,25 @@
 }
 
 .intro h2,
-.intro h3 {
+.intro h3,
+.intro h4 {
     font-family: 'Lexend', sans-serif;
     font-weight: 500;
     font-size: 5em;
 }
 
 .intro h3 {
-    margin-bottom: 80px;
+
     background: linear-gradient(to right, #9D8DF1, #B8CDF8);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.intro h4 {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-size: 2.5em;
 }
 
 @media (max-width: 600px) {
@@ -37,6 +44,13 @@
     .intro h3 {
         font-size: 1.7em;
         margin-bottom: 0px;
+    }
+
+    .intro h4 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 0.8em;
     }
 
 
