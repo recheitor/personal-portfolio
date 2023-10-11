@@ -17,7 +17,7 @@ const HomePage = () => {
             </Row>
             <Row>
                 <Col xs='12' lg='12'>
-                    <section className='intro'>
+                    <section>
                         <Intro />
                     </section>
                 </Col>

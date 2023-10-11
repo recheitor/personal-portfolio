@@ -7,8 +7,7 @@
 }
 
 .intro {
-    margin-top: 50px;
-    padding-top: 20px;
+    padding-top: 70px;
     padding-bottom: 20px;
     background: radial-gradient(ellipse closest-side at 60% 50%, rgba(149, 242, 217, 1), #ffffff);
 }
@@ -31,7 +30,6 @@
 @media (max-width: 600px) {
 
     .intro {
-        margin-top: 20px;
         background: radial-gradient(ellipse closest-side at 67% 50%, rgba(149, 242, 217, 1), #ffffff);
     }
 

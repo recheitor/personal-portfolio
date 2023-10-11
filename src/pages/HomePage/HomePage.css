@@ -1,5 +1,5 @@
 #intro-blank-section {
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .about {
@@ -10,7 +10,7 @@
 @media screen and (max-width: 991px) {
 
     #intro-blank-section {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
 
