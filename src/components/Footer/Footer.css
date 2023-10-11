@@ -1,0 +1,50 @@
+.footer {
+    bottom: 0;
+    background-color: rgb(59, 58, 76);
+    width: 100vw;
+    display: flex;
+    font-size: 13px;
+    padding-left: 0px;
+    color: rgb(154, 135, 135);
+}
+
+.footer p {
+    margin: 0 0.4rem;
+}
+
+
+
+.footer-space {
+    height: 41px;
+    margin-top: 22.4px;
+    padding-right: 0px;
+}
+
+.whatsapp-logo {
+    position: fixed;
+    display: block;
+    z-index: 11;
+    top: 93vh;
+    left: 90vw;
+    transform: translate(-50%, -50%);
+
+}
+
+.whatsapp-logo img {
+    height: 40px;
+    width: auto;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .footer,
+    .company-name {
+        font-size: 10px;
+    }
+
+    .whatsapp-logo {
+        top: 90vh;
+    }
+
+}

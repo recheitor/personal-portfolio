@@ -1,0 +1,14 @@
+#intro-section {
+    padding-top: 100px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    #intro-section {
+        margin-top: 50px;
+    }
+
+
+}

@@ -1,0 +1,39 @@
+.intro p {
+    color: black
+}
+
+.intro {
+    background: radial-gradient(ellipse closest-side at 60% 50%, rgba(149, 242, 217, 1), #ffffff);
+}
+
+
+
+.intro h2,
+.intro h3 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+    font-size: 3em;
+}
+
+.intro h3 {
+    margin-bottom: 80px;
+    background: linear-gradient(to right, #9D8DF1, #B8CDF8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@media (max-width: 600px) {
+
+    .intro {
+        background: radial-gradient(ellipse closest-side at 67% 50%, rgba(149, 242, 217, 1), #ffffff);
+    }
+
+    .intro h2,
+    .intro h3 {
+        font-size: 1em;
+        margin-bottom: 0px;
+    }
+
+
+}
