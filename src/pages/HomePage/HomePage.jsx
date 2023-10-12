@@ -4,7 +4,7 @@ import Intro from '../../components/Intro/Intro'
 import Projects from '../../components/Projects/Projects'
 import Qualities from '../../components/Qualities/Qualities'
 import './HomePage.css'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 const HomePage = ({ language }) => {
 
     return (

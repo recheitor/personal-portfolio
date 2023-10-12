@@ -14,7 +14,7 @@ const Qualities = ({ language }) => {
                 <Col xs='12' lg='12'>
                     <Row className='qualities-title justify-content-center'>
                         <Col xs='10' lg='6' className='qualities-title-bottom text-center'>
-                            {language === 'ENG' ? <h2>This are some<br />of my <span>qualities</span></h2> : <h2>Estas son algunas<br />de mis <span>cualidades</span></h2>}
+                            {language === 'ENG' ? <h2>This are my<br /> top <span>qualities</span></h2> : <h2>Estas son algunas<br />de mis <span>cualidades</span></h2>}
 
 
                         </Col>

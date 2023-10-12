@@ -3,7 +3,7 @@
 }
 
 .intro img {
-    width: 60%
+    width: 90%
 }
 
 .intro {
@@ -22,7 +22,7 @@
 
 .intro h3 {
 
-    background: linear-gradient(to right, #9D8DF1, #B8CDF8);
+    background: linear-gradient(to right, #9584ed, #a8c3fa);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

@@ -23,8 +23,6 @@ const Navigation = ({ language, setLanguage }) => {
 
     return (
         <>
-
-
             <Row className='navi justify-content-between align-items-center'>
                 <Col xs='2' lg='3' >
                     <div className='nav-my-name'>
@@ -32,14 +30,14 @@ const Navigation = ({ language, setLanguage }) => {
                     </div>
                 </Col>
                 <Col xs='8' lg='6' >
-                    <Row className='nav-sections justify-content-end me-3'>
-                        <Col xs='3' lg='3' className='text-center p-0'>
-                            <a href="#about-me-section">{language === 'ENG' ? 'ABOUT' : 'SOBRE MÍ'}</a>
+                    <Row className='nav-sections justify-content-around me-3'>
+                        <Col xs='3' lg='4' className='text-center p-0'>
+                            <a href="#about-me-section">{language === 'ENG' ? 'ABOUT ME' : 'SOBRE MÍ'}</a>
                         </Col>
-                        <Col xs='3' lg='3' className='p-0' >
+                        <Col xs='3' lg='4' className='text-center p-0' >
                             <a href="#projects-section">{language === 'ENG' ? 'PROJECTS' : 'PROYECTOS'}</a>
                         </Col>
-                        <Col xs='3' lg='3' className='p-0' >
+                        <Col xs='3' lg='4' className='text-center p-0' >
                             <a href="#contact-me-section">{language === 'ENG' ? 'CONTACT' : 'CONTACTO'}</a>
                         </Col>
                     </Row>
@@ -57,15 +55,13 @@ const Navigation = ({ language, setLanguage }) => {
                 onChange={() => setIsMenuOpen(!isMenuOpen)} />
             <label className='navi-label' htmlFor="menu-icon"></label>
 
-
-
             <nav className="nav">
                 <ul>
                     <li>  <a href="#about-me-section"
                         style={{ textDecoration: 'none' }}
                         onClick={closeMenu}
                     >
-                        {language === 'ENG' ? 'ABOUT' : 'SOBRE MÍ'}
+                        {language === 'ENG' ? 'ABOUT ME' : 'SOBRE MÍ'}
                     </a>
                     </li>
                     <li>
@@ -73,7 +69,7 @@ const Navigation = ({ language, setLanguage }) => {
                             style={{ textDecoration: 'none' }}
                             onClick={closeMenu}
                         >
-                            {language === 'ENG' ? 'PROJECTS' : 'PROYECTOS'}
+                            {language === 'ENG' ? 'MY PROJECTS' : 'MIS PROYECTOS'}
                         </a>
                     </li>
 
@@ -96,14 +92,7 @@ const Navigation = ({ language, setLanguage }) => {
                     </li>
                 </ul>
             </nav>
-
             <div className="overlay"></div>
-
-
-
-
-
-
         </>
     )
 }
