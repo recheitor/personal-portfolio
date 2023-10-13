@@ -1,5 +1,4 @@
-import { Col, Container, Navbar, Row, } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Col, Row, } from 'react-bootstrap'
 import './Intro.css'
 
 
@@ -9,7 +8,7 @@ const Intro = ({ language }) => {
     return (
         <>
             <Row className='intro justify-content-center align-items-center'>
-                <Col xs='8' lg='6' className='d-flex flex-column align-items-center' >
+                <Col xs='8' lg='7' className='d-flex flex-column align-items-center text-center' >
                     {language === 'ENG' ? <h2>Hey! I am</h2> : <h2>¡Hola! Soy</h2>}
                     <div>
                         <h3>Alejandro Reche</h3>

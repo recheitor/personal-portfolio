@@ -78,6 +78,13 @@
     color: #1af1b0;
 }
 
+@media (max-width: 1450px) {
+
+
+    .background-title h3 {
+        font-size: 2.2em;
+    }
+}
 
 
 @media (max-width: 600px) {
@@ -97,7 +104,7 @@
 
     .background-title h3,
     .background-title span {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     .text-end {
