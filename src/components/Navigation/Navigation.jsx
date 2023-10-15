@@ -25,7 +25,7 @@ const Navigation = ({ language, setLanguage }) => {
         <>
             <Row className='navi justify-content-between align-items-center'>
                 <Col xs='2' lg='3' >
-                    <div className='nav-my-name'>
+                    <div className='nav-head'>
                         <a href="#intro-blank-section"> <h3>A.Reche</h3></a>
                     </div>
                 </Col>
