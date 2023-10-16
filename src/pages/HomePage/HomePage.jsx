@@ -16,18 +16,10 @@ const HomePage = ({ language }) => {
     });
 
     useEffect(() => {
+        setComponentsLoaded({ qualities: true, background: true, projects: true, contact: true });
+    }, [])
 
-        const loadComponents = async () => {
-            await new Promise((resolve) => {
-                window.addEventListener('load', () => {
-                    resolve();
-                    setComponentsLoaded({ qualities: true, background: true, projects: true, contact: true });
-                });
-            });
-        };
 
-        loadComponents();
-    }, []);
 
 
 
