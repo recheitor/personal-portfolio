@@ -8,6 +8,7 @@ import { Container } from 'react-bootstrap'
 function App() {
   const [language, setLanguage] = useState('ENG')
 
+  const [font, setFont] = useState(false)
 
   window.addEventListener('load', () => {
     const linkElement = document.createElement('link');
@@ -15,6 +16,7 @@ function App() {
     linkElement.rel = 'stylesheet';
 
     document.head.appendChild(linkElement);
+    setFont(true)
   });
 
 
@@ -24,12 +26,15 @@ function App() {
 
   return (
     <>
-
-      <Navigation language={language} setLanguage={setLanguage} />
-      <Container>
-        <AppRoutes language={language} />
-      </Container>
-      <Footer />
+      {font && (
+        <>
+          <Navigation language={language} setLanguage={setLanguage} />
+          <Container>
+            <AppRoutes language={language} />
+          </Container>
+          <Footer />
+        </>
+      )}
     </>
   )
 }
