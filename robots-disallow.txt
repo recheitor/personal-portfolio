@@ -1,0 +1,8 @@
+# start of file
+
+User-agent: *
+Allow: /public/
+Allow: /src/
+Allow: /
+
+Sitemap: https://alejandroreche.com
