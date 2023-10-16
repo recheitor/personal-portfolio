@@ -37,9 +37,3 @@ Cache-Control = "public, max-age=31536000"
 for = "/*.ico"
 [headers.values]
 Cache-Control = "public, max-age=31536000"
-
-
-[build.environment]
-
-[context.production]
-    command = "mv robots-production.txt robots.txt"
