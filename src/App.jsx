@@ -9,12 +9,17 @@ function App() {
   const [language, setLanguage] = useState('ENG')
 
   useEffect(() => {
-    const linkElement = document.createElement('link');
-    linkElement.href = 'https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;800&display=swap';
-    linkElement.rel = 'stylesheet';
+    window.addEventListener('load', () => {
+      const linkElement = document.createElement('link');
+      linkElement.href = 'https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;800&display=swap';
+      linkElement.rel = 'stylesheet';
 
-    document.head.appendChild(linkElement);
+      document.head.appendChild(linkElement);
+    });
   }, [])
+
+
+
 
 
   return (
