@@ -8,12 +8,12 @@ import './HomePage.css'
 import { Col, Row } from 'react-bootstrap'
 const HomePage = ({ language }) => {
 
-    // const [componentsLoaded, setComponentsLoaded] = useState({
-    //     qualities: false,
-    //     background: false,
-    //     projects: false,
-    //     contact: false,
-    // });
+    const [componentsLoaded, setComponentsLoaded] = useState({
+        qualities: false,
+        background: false,
+        projects: false,
+        contact: false,
+    });
 
 
 
