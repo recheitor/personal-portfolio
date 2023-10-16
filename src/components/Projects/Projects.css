@@ -91,6 +91,10 @@
         margin-bottom: 15px;
     }
 
+    .projects-card-mini img {
+        width: 280px;
+        height: auto;
+    }
 
 
 }
