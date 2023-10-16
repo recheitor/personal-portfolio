@@ -3,7 +3,7 @@ let policy = {
 }
 
 if (process.env.environment !== "production") {
-    policy.disallow = "/";
+    policy.allow = "/";
 }
 
 module.exports = {
