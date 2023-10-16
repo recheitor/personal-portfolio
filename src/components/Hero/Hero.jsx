@@ -23,7 +23,7 @@ const Hero = ({ language }) => {
                     </div>
                 </Col>
                 <Col xs='4' lg='5' className='ps-0'>
-                    <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/nqteiuksm2ybomaom3ks" alt="Alejandro Reche's Photo" role="img" aria-label="Alejandro Reche's Photo" />
+                    <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/dd7wbroh9qsuxrvktijw" alt="Alejandro Reche's Photo" role="img" aria-label="Alejandro Reche's Photo" />
                 </Col>
             </Row>
         </>
