@@ -44,7 +44,7 @@ const HomePage = ({ language }) => {
             <Row>
                 <Col xs='12' lg='12'>
                     <section id="contact-me-section" role="region" aria-label={language === 'ENG' ? 'Contact Me Section' : 'Sección de Contacto'}>
-                        && <Contact language={language} />
+                        <Contact language={language} />
                     </section>
                 </Col>
             </Row>
