@@ -2,7 +2,6 @@
 
 User-agent: *
 Allow: /public/
-Allow: /src/
 Allow: /
 
 Sitemap: https://www.alejandroreche.com
