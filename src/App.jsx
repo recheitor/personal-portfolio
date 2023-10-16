@@ -9,7 +9,7 @@ function App() {
   const [language, setLanguage] = useState('ENG')
 
   useEffect(() => {
-    window.addEventListener('load', () => {
+    window.addEventListener('DOMContentLoaded', () => {
       const linkElement = document.createElement('link');
       linkElement.href = 'https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;800&display=swap';
       linkElement.rel = 'stylesheet';
