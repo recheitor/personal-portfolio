@@ -10,14 +10,20 @@ function App() {
 
   const [font, setFont] = useState(false)
 
-  window.addEventListener('load', () => {
-    const linkElement = document.createElement('link');
-    linkElement.href = 'https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;800&display=swap';
-    linkElement.rel = 'stylesheet';
+  const loadComponents = async () => {
+    await new Promise((resolve) => {
+      window.addEventListener('load', () => {
+        resolve();
+        const linkElement = document.createElement('link');
+        linkElement.href = 'https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;800&display=swap';
+        linkElement.rel = 'stylesheet';
 
-    document.head.appendChild(linkElement);
-    setFont(true)
-  });
+        document.head.appendChild(linkElement);
+        setFont(true)
+      });
+    });
+  };
+  loadComponents();
 
 
 
