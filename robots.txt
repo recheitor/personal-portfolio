@@ -1,5 +1,5 @@
-# Robots.txt for Your Website
-# This file controls the behavior of web crawlers on your site.
+# Robots.txt
+# This file controls the behavior of web crawlers on my site.
 
 User-agent: *
 Disallow: /private/
