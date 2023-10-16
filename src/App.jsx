@@ -8,15 +8,15 @@ import { Container } from 'react-bootstrap'
 function App() {
   const [language, setLanguage] = useState('ENG')
 
-  useEffect(() => {
-    window.addEventListener('DOMContentLoaded', () => {
-      const linkElement = document.createElement('link');
-      linkElement.href = 'https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;800&display=swap';
-      linkElement.rel = 'stylesheet';
 
-      document.head.appendChild(linkElement);
-    });
-  }, [])
+  window.addEventListener('load', (e) => {
+    const linkElement = document.createElement('link');
+    linkElement.href = 'https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;800&display=swap';
+    linkElement.rel = 'stylesheet';
+
+    document.head.appendChild(linkElement);
+  });
+
 
 
 
