@@ -1,7 +1,6 @@
 # start of file
 
 User-agent: *
-Allow: /public/
 Allow: /
 
 Sitemap: https://www.alejandroreche.com
