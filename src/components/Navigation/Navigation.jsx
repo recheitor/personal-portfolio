@@ -54,7 +54,7 @@ const Navigation = ({ language, setLanguage }) => {
             </Row>
 
             <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" checked={isMenuOpen} onChange={() => setIsMenuOpen(!isMenuOpen)} role="checkbox" aria-label="Menu Icon" />
-            <label class="navi-label" for="menu-icon" role="presentation" aria-label="Menu Hamburger" />
+            <label class="navi-label" for="menu-icon" role="label" aria-label="Menu Hamburger" />
 
 
             <nav className="nav" role="navigation" aria-label={language === 'ENG' ? 'Mobile Navigation' : 'Navegación Móvil'}>
