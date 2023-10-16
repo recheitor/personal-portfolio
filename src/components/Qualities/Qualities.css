@@ -4,7 +4,7 @@
 
 .qualities img {
     width: 60%;
-    height: auto;
+    height: 60%;
 }
 
 .background-blur {
@@ -27,7 +27,7 @@
 
 .qualities-card img {
     width: 80px;
-    height: auto;
+    height: 80px;
     margin-bottom: 30px;
 }
 
@@ -76,8 +76,8 @@
     }
 
     .qualities-card img {
-        width: 30%;
-        height: auto;
+        width: 45px;
+        height: 45px;
         margin-bottom: 10px;
     }
 

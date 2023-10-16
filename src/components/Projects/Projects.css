@@ -17,8 +17,8 @@
 
 .projects-card-mini img {
     margin-top: 10px;
-    width: 95%;
-    height: auto;
+    width: 280px;
+    height: 180px;
     border-radius: 8px;
 }
 
@@ -44,6 +44,27 @@
 .projects-card span {
     font-size: 1.2em;
     color: #54428E;
+}
+
+@media (max-width: 1401px) {
+    .projects-card-mini img {
+        width: 240px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 1201px) {
+    .projects-card-mini img {
+        width: 200px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 1001px) {
+    .projects-card-mini img {
+        width: 380px;
+        height: 280px;
+    }
 }
 
 @media (max-width: 600px) {
