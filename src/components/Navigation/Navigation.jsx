@@ -44,7 +44,7 @@ const Navigation = ({ language, setLanguage }) => {
                 </Col>
                 <Col xs='2' lg='1' className='logo-contact text-end'>
                     <a href='https://github.com/recheitor' target='_blank'><img className='me-2' src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697055951/xbuhmypxuxhnni2itq3l.png" alt="GitHub Icon" role="img" aria-label="GitHub Profile" /></a>
-                    <a href='https://www.linkedin.com/in/alejandro-reche-costa/' target='_blank'><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697055983/qktqnj646lv6ix3uwafy.png" alt="LinkedIn Icon" role="img" aria-label="LinkedIn Profile" /></a>
+                    <a href='https://www.linkedin.com/in/alejandro-reche-costa/' target='_blank'><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/qktqnj646lv6ix3uwafy" alt="LinkedIn Icon" role="img" aria-label="LinkedIn Profile" /></a>
                 </Col>
                 <Col xs='2' lg='1' className='nav-language d-flex align-items-center justify-content-center' >
                     <Link style={{ textDecoration: 'none', fontSize: '0.9em', color: '#C490D1' }} onClick={language === 'ENG' ? (() => handleLanguageEspClick()) : (() => handleLanguageEngClick())} role="button">
@@ -80,7 +80,7 @@ const Navigation = ({ language, setLanguage }) => {
                     </li>
                     <li>
                         <a href='https://www.linkedin.com/in/alejandro-reche-costa/' target='_blank' role="menuitem">
-                            <img className='logo-contact-mini' src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697055983/qktqnj646lv6ix3uwafy.png" alt="LinkedIn Icon" role="img" aria-label="LinkedIn Profile" />
+                            <img className='logo-contact-mini' src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/qktqnj646lv6ix3uwafy" alt="LinkedIn Icon" role="img" aria-label="LinkedIn Profile" />
                         </a>
                     </li>
                     <li>

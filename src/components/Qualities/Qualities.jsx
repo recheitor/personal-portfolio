@@ -20,19 +20,19 @@ const Qualities = ({ language }) => {
                     </Row>
                     <Row className='qualities justify-content-evenly' role="list">
                         <Col xs='5' lg='2' className='qualities-card text-center' role="listitem">
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697020804/zok1mfwdyrudnmmwmk08.png" alt="Teamwork Icon" role="img" aria-label={language === 'ENG' ? 'Teamwork' : 'Trabajo en equipo'} />
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/zok1mfwdyrudnmmwmk08" alt="Teamwork Icon" role="img" aria-label={language === 'ENG' ? 'Teamwork' : 'Trabajo en equipo'} />
                             <h4>{language === 'ENG' ? 'Teamwork' : 'Trabajo en equipo'}</h4>
                         </Col>
                         <Col xs='5' md='5' lg='2' className='qualities-card text-center' role="listitem">
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697020804/n2rrjxqyxe9j4imgzrn2.png" alt="Problem-solving Icon" role="img" aria-label={language === 'ENG' ? 'Problem-solving' : 'Resolución de problemas'} />
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/n2rrjxqyxe9j4imgzrn2" alt="Problem-solving Icon" role="img" aria-label={language === 'ENG' ? 'Problem-solving' : 'Resolución de problemas'} />
                             <h4>{language === 'ENG' ? 'Problem-solving' : 'Resolución de problemas'}</h4>
                         </Col>
                         <Col xs='5' md='5' lg='2' className='qualities-card text-center' role="listitem">
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697020804/auyikyqsqrcbm1efla3c.png" alt="Time Management Icon" role="img" aria-label={language === 'ENG' ? 'Time Management' : 'Gestión del tiempo'} />
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/auyikyqsqrcbm1efla3c" alt="Time Management Icon" role="img" aria-label={language === 'ENG' ? 'Time Management' : 'Gestión del tiempo'} />
                             <h4>{language === 'ENG' ? 'Time Management' : 'Gestión del tiempo'}</h4>
                         </Col>
                         <Col xs='5' md='5' lg='2' className='qualities-card text-center' role="listitem">
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697020804/pd9kyv0o3jxqe9bo9bnm.png" alt="Communication Skills Icon" role="img" aria-label={language === 'ENG' ? 'Communication Skills' : 'Buena comunicación'} />
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/pd9kyv0o3jxqe9bo9bnm" alt="Communication Skills Icon" role="img" aria-label={language === 'ENG' ? 'Communication Skills' : 'Buena comunicación'} />
                             <h4>{language === 'ENG' ? 'Communication Skills' : 'Buena comunicación'}</h4>
                         </Col>
                     </Row>
