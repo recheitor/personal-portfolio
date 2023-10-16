@@ -3,17 +3,6 @@ import './Hero.css'
 
 const Hero = ({ language }) => {
 
-    // window.addEventListener('load', () => {
-    //     const link = document.createElement('link');
-    //     link.rel = 'preload';
-    //     link.as = 'image';
-    //     link.href =
-    //         'https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/dd7wbroh9qsuxrvktijw';
-
-    //     document.head.appendChild(link);
-    // });
-
-
     return (
         <>
             <Row className='hero justify-content-center align-items-center' role="banner" aria-label={language === 'ENG' ? 'Hero Section' : 'Sección del héroe'}>
@@ -33,7 +22,7 @@ const Hero = ({ language }) => {
                     </div>
                 </Col>
                 <Col xs='4' lg='5' className='ps-0'>
-                    <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/dd7wbroh9qsuxrvktijw" alt="Alejandro Reche's Photo" role="img" aria-label="Alejandro Reche's Photo" />
+                    <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/w2ae0zisgga9v8wasp9m" alt="Alejandro Reche's Photo" role="img" aria-label="Alejandro Reche's Photo" />
                 </Col>
             </Row>
         </>
