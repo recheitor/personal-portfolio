@@ -10,6 +10,7 @@
 
 .footer p {
     margin: 0 0.4rem;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -26,6 +27,7 @@
     .company-name {
         font-size: 10px;
     }
+
 
 
 
