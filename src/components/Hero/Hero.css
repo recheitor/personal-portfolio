@@ -3,7 +3,8 @@
 }
 
 .hero img {
-    width: 90%
+    width: 90%;
+    height: 90%
 }
 
 .hero {
@@ -48,7 +49,8 @@
     }
 
     .hero img {
-        width: 80%
+        width: 80%;
+        height: 80%
     }
 }
 
@@ -66,7 +68,8 @@
     }
 
     .hero img {
-        width: 100%
+        width: 100%;
+        height: 100%
     }
 }
 
