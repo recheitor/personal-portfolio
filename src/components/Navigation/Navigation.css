@@ -1,11 +1,93 @@
-@media screen and (min-width: 991px) {
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
 
-    [type="checkbox"]:checked,
-    [type="checkbox"]:not(:checked) {
-        position: absolute;
-        left: -9999px;
-    }
 
+
+.nav-head h3 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 2.3em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background: linear-gradient(to right, #54428E -10%, rgba(255, 255, 255, 0.4) 50%);
+    padding-right: 600px;
+    padding-left: 100px;
+    margin: 0;
+    width: 100vw;
+    backdrop-filter: blur(2px);
+}
+
+
+.navi,
+.nav {
+    position: fixed;
+}
+
+.navi a {
+    text-decoration: none;
+}
+
+.nav-sections {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+    font-size: 1.3em;
+    position: relative;
+}
+
+.nav-sections a {
+    color: black;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.nav-sections a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #B8CDF8;
+    transition: width 0.3s;
+}
+
+.nav-sections a:hover::before {
+    width: 100%;
+}
+
+.nav-sections a:hover {
+    color: #772D8B;
+}
+
+.nav-language a {
+    font-size: 2em;
+
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: black;
+    margin: 0;
+    z-index: 9;
+}
+
+.nav,
+.navi-label {
+
+    visibility: hidden;
+    display: none;
+}
+
+.logo-contact img {
+    width: 30%;
+    height: 30%;
+    filter: brightness(0);
+}
+
+@media screen and (max-width: 991px) {
 
     .menu-icon:checked+label,
     .menu-icon:not(:checked)+label {
@@ -251,92 +333,6 @@
     .menu-icon:checked~.nav ul li:nth-child(6) {
         transition-delay: 800ms;
     }
-
-
-    .nav-head h3 {
-        font-family: 'Lexend', sans-serif;
-        font-weight: 500;
-        font-size: 2.3em;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        color: white;
-        background: linear-gradient(to right, #54428E -10%, rgba(255, 255, 255, 0.4) 50%);
-        padding-right: 600px;
-        padding-left: 100px;
-        margin: 0;
-        width: 100vw;
-        backdrop-filter: blur(2px);
-    }
-
-
-    .navi {
-        position: fixed;
-    }
-
-    .navi a {
-        text-decoration: none;
-    }
-
-    .nav-sections {
-        font-family: 'Lexend', sans-serif;
-        font-weight: 800;
-        font-size: 1.3em;
-        position: relative;
-    }
-
-    .nav-sections a {
-        color: black;
-        position: relative;
-        transition: color 0.3s;
-    }
-
-    .nav-sections a::before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 2px;
-        background: #B8CDF8;
-        transition: width 0.3s;
-    }
-
-    .nav-sections a:hover::before {
-        width: 100%;
-    }
-
-    .nav-sections a:hover {
-        color: #772D8B;
-    }
-
-    .nav-language a {
-        font-size: 2em;
-
-        font-family: 'Lexend', sans-serif;
-        font-weight: 300;
-        font-size: 1.2em;
-        color: black;
-        margin: 0;
-        z-index: 9;
-    }
-
-    .nav,
-    .navi-label {
-
-        visibility: hidden;
-        display: none;
-    }
-
-    .logo-contact img {
-        width: 30%;
-        height: 30%;
-        filter: brightness(0);
-    }
-}
-
-@media screen and (max-width: 991px) {
-
-
 
 
     .nav,
