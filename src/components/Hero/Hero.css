@@ -1,26 +1,26 @@
-.intro p {
+.hero p {
     color: black
 }
 
-.intro img {
+.hero img {
     width: 90%
 }
 
-.intro {
+.hero {
     padding-top: 70px;
     padding-bottom: 120px;
     background: radial-gradient(ellipse closest-side at 60% 50%, rgb(21, 247, 187), #ffffff);
 }
 
-.intro h2,
-.intro h3,
-.intro h4 {
+.hero h2,
+.hero h3,
+.hero h4 {
     font-family: 'Lexend', sans-serif;
     font-weight: 500;
     font-size: 4.5em;
 }
 
-.intro h3 {
+.hero h3 {
 
     background: linear-gradient(to right, #9584ed, #a8c3fa);
     -webkit-background-clip: text;
@@ -28,62 +28,62 @@
     color: transparent;
 }
 
-.intro h4 {
+.hero h4 {
     margin-top: 10px;
     margin-bottom: 80px;
     font-size: 2.5em;
 }
 
 @media (max-width: 1250px) {
-    .intro h2 {
+    .hero h2 {
         font-size: 3em;
     }
 
-    .intro h3 {
+    .hero h3 {
         font-size: 3em;
     }
 
-    .intro h4 {
+    .hero h4 {
         font-size: 1.8em;
     }
 
-    .intro img {
+    .hero img {
         width: 80%
     }
 }
 
 @media (max-width: 810px) {
-    .intro h2 {
+    .hero h2 {
         font-size: 2.5em;
     }
 
-    .intro h3 {
+    .hero h3 {
         font-size: 2.5em;
     }
 
-    .intro h4 {
+    .hero h4 {
         font-size: 1.3em;
     }
 
-    .intro img {
+    .hero img {
         width: 100%
     }
 }
 
 @media (max-width: 600px) {
 
-    .intro {
+    .hero {
         background: radial-gradient(ellipse closest-side at 67% 40%, rgb(21, 247, 187), #ffffff);
         padding-bottom: 70px;
     }
 
-    .intro h2,
-    .intro h3 {
+    .hero h2,
+    .hero h3 {
         font-size: 1.7em;
         margin-bottom: 0px;
     }
 
-    .intro h4 {
+    .hero h4 {
         margin-top: 10px;
         margin-bottom: 10px;
         font-weight: 500;

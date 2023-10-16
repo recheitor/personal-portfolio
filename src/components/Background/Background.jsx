@@ -1,6 +1,6 @@
 import { Col, Row, } from 'react-bootstrap'
 import './Background.css'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
 
 const Background = ({ language }) => {
@@ -56,10 +56,7 @@ const Background = ({ language }) => {
 
     return (
         <>
-
-
-
-            <Row className='justify-content-center mb-5'>
+            <Row className='justify-content-center mb-5' role="region" aria-label="Skills and Experience Section">
                 <Col xs='12' lg='12'>
                     <Row className='justify-content-center background-title background-card align-items-center'>
                         <Col xs='6' lg='5'>
@@ -67,17 +64,21 @@ const Background = ({ language }) => {
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
                                         <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
-                                            <h4>{language === 'ENG' ? 'Zimvie CNC Programmer' : 'Zimvie Programador CNC'}</h4>
+                                            <h4 role="heading" aria-level="2">
+                                                {language === 'ENG' ? 'Zimvie CNC Programmer' : 'Zimvie Programador CNC'}
+                                            </h4>
                                         </Col>
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox" />
                                             <label htmlFor="rotate-checkbox" className="rotate-label">
-                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" />
+                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" />
                                             </label>
                                         </Col>
                                         <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
-                                            <div className="additional-info" id="additional-info">
-                                                <p>{language === 'ENG' ? '13 years G-Code experience' : '13 años con código G'}</p>
+                                            <div className="additional-info" id="additional-info" role="region" aria-label="Additional Information">
+                                                <p>
+                                                    {language === 'ENG' ? '13 years G-Code experience' : '13 años con código G'}
+                                                </p>
                                             </div>
                                         </Col>
                                     </Row>
@@ -86,16 +87,18 @@ const Background = ({ language }) => {
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
                                         <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
-                                            <h4>{language === 'ENG' ? 'IronHack Web Development' : 'IronHack Desarrollo Web'}</h4>
+                                            <h4 role="heading" aria-level="2">
+                                                {language === 'ENG' ? 'IronHack Web Development' : 'IronHack Desarrollo Web'}
+                                            </h4>
                                         </Col>
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox2" />
                                             <label htmlFor="rotate-checkbox2" className="rotate-label">
-                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" />
+                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" />
                                             </label>
                                         </Col>
                                         <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
-                                            <div className="additional-info2" id="additional-info2">
+                                            <div className="additional-info2" id="additional-info2" role="region" aria-label="Additional Information">
                                                 <p>360h JavaScript MERN</p>
                                             </div>
                                         </Col>
@@ -104,16 +107,18 @@ const Background = ({ language }) => {
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
                                         <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
-                                            <h4>{language === 'ENG' ? 'Coursera Web Development' : 'Coursera Desarrollo Web'}</h4>
+                                            <h4 role="heading" aria-level="2">
+                                                {language === 'ENG' ? 'Coursera Web Development' : 'Coursera Desarrollo Web'}
+                                            </h4>
                                         </Col>
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox3" />
                                             <label htmlFor="rotate-checkbox3" className="rotate-label">
-                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" />
+                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" />
                                             </label>
                                         </Col>
                                         <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
-                                            <div className="additional-info3" id="additional-info3">
+                                            <div className="additional-info3" id="additional-info3" role="region" aria-label="Additional Information">
                                                 <p>192h Full Stack - Python</p>
                                             </div>
                                         </Col>
@@ -122,18 +127,19 @@ const Background = ({ language }) => {
                             </Row>
                         </Col>
                         <Col xs='5' lg='5' className='text-center ms-4'>
-                            {language === 'ENG' ? <h3>Relevant <span>academic</span> background and <span>career</span> experience</h3> : <h3>Formación <span>académica</span> y experiencia <span>laboral</span> relevante</h3>}
-
+                            {language === 'ENG' ? (
+                                <h3 role="heading" aria-level="1">
+                                    Relevant <span>academic</span> background and <span>career</span> experience
+                                </h3>
+                            ) : (
+                                <h3 role="heading" aria-level="1">
+                                    Formación <span>académica</span> y experiencia <span>laboral</span> relevante
+                                </h3>
+                            )}
                         </Col>
-                    </Row >
-
-
-                </Col >
-
-
-            </Row >
-
-
+                    </Row>
+                </Col>
+            </Row>
         </>
     )
 }

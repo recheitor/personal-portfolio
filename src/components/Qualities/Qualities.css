@@ -16,8 +16,6 @@
     background: linear-gradient(to left, #B8CDF8 1%, transparent);
 }
 
-
-
 .qualities-card {
     min-height: fit-content;
     min-width: fit-content;
@@ -27,12 +25,12 @@
 }
 
 .qualities-card img {
-    width: 40%;
+    width: 80px;
     margin-bottom: 30px;
 }
 
 .qualities-card h4 {
-    font-size: 1.7em;
+    font-size: 1.4em;
 }
 
 .qualities-title h2,
@@ -49,8 +47,6 @@
 .qualities-title-bottom {
     margin-bottom: 20px;
 }
-
-
 
 @media (max-width: 1450px) {
     .qualities-card h4 {
@@ -70,7 +66,6 @@
     }
 
     .background-blur {
-
         margin-bottom: 20px;
         margin-top: 50px;
         border-radius: 0px;

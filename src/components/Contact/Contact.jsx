@@ -1,11 +1,11 @@
 
-import { Link } from 'react-router-dom'
 import './Contact.css'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import { useForm, ValidationError } from '@formspree/react';
 import { useState } from 'react';
 
 const Contact = ({ language }) => {
+
     const [state, handleSubmit] = useForm("xzblydjk");
     const [hasContacted, setHasContacted] = useState(undefined)
     if (!hasContacted && state.succeeded) {
@@ -18,25 +18,25 @@ const Contact = ({ language }) => {
     }
 
     return (
-
-        <Row className='contact-card justify-content-center contactForm'>
-            <Col md='7' xs='11' className='text-center'>
-
-                <div className="card-3d-wrap">
-                    {language === 'ENG' ? <h3><span>Contact </span>me</h3> : <h3><span>Contáctame </span></h3>}
-
-                    {
-                        !state.succeeded ?
+        <>
+            <Row className='contact-card justify-content-center contactForm' role="region" aria-label={language === 'ENG' ? 'Contact me' : 'Contáctame'}>
+                <Col md='7' xs='11' className='text-center'>
+                    <div className="card-3d-wrap">
+                        <h3 role="heading" aria-level="1">
+                            {language === 'ENG' ? <span>Contact</span> : <span>Contáctame</span>}
+                        </h3>
+                        {!state.succeeded ? (
                             <form onSubmit={handleSubmit} className='form-group'>
                                 <input
                                     id="email"
                                     type="email"
                                     name="email"
-                                    className="form-style "
+                                    className="form-style"
                                     placeholder={language === 'ENG' ? 'Your email' : 'Tu email'}
+                                    aria-label={language === 'ENG' ? 'Your email' : 'Tu email'}
                                 />
                                 <ValidationError
-                                    prefix="Email"
+                                    prefix={language === 'ENG' ? 'Email' : 'Correo electrónico'}
                                     field="email"
                                     errors={state.errors}
                                 />
@@ -45,10 +45,11 @@ const Contact = ({ language }) => {
                                     name="message"
                                     style={{ overflow: 'hidden', paddingBottom: '170px' }}
                                     className="form-style mt-3"
-                                    placeholder={language === 'ENG' ? 'How can I help you?' : '¿En que te puedo ayudar?'}
+                                    placeholder={language === 'ENG' ? 'How can I help you?' : '¿En qué te puedo ayudar?'}
+                                    aria-label={language === 'ENG' ? 'How can I help you?' : '¿En qué te puedo ayudar?'}
                                 />
                                 <ValidationError
-                                    prefix="Message"
+                                    prefix={language === 'ENG' ? 'Message' : 'Mensaje'}
                                     field="message"
                                     errors={state.errors}
                                 />
@@ -56,17 +57,15 @@ const Contact = ({ language }) => {
                                     {language === 'ENG' ? 'Submit' : 'Enviar'}
                                 </button>
                             </form>
-                            :
-                            <div className='form-style pt-2 pb-5'>{hasContacted}</div>
-                    }
-
-                </div>
-            </Col>
-
-        </Row >
-
-
-
+                        ) : (
+                            <div className='form-style pt-2 pb-5' role="status" aria-live="polite">
+                                {hasContacted}
+                            </div>
+                        )}
+                    </div>
+                </Col>
+            </Row>
+        </>
     )
 }
 
