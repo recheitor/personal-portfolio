@@ -1,14 +1,15 @@
 import { Col, Row, } from 'react-bootstrap'
 import './Hero.css'
 
-
 const Hero = ({ language }) => {
 
     window.addEventListener('load', () => {
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.as = 'image';
+        link.href =
+            'https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/dd7wbroh9qsuxrvktijw';
 
-
-        const image = new Image();
-        image.src = 'https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/dd7wbroh9qsuxrvktijw';
         document.head.appendChild(link);
     });
 

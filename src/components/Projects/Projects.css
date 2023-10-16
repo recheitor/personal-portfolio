@@ -18,7 +18,7 @@
 .projects-card-mini img {
     margin-top: 10px;
     width: 280px;
-    height: 180px;
+    height: auto;
     border-radius: 8px;
 }
 
@@ -49,21 +49,21 @@
 @media (max-width: 1401px) {
     .projects-card-mini img {
         width: 240px;
-        height: 150px;
+        height: auto;
     }
 }
 
 @media (max-width: 1201px) {
     .projects-card-mini img {
         width: 200px;
-        height: 130px;
+        height: auto;
     }
 }
 
 @media (max-width: 1001px) {
     .projects-card-mini img {
         width: 380px;
-        height: 280px;
+        height: auto;
     }
 }
 

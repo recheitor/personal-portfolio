@@ -10,13 +10,11 @@ function App() {
 
 
   window.addEventListener('load', () => {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;800&display=swap';
+    const linkElement = document.createElement('link');
+    linkElement.href = 'https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;800&display=swap';
+    linkElement.rel = 'stylesheet';
 
-    const image = new Image();
-    image.src = 'https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/dd7wbroh9qsuxrvktijw';
-    document.head.appendChild(link);
+    document.head.appendChild(linkElement);
   });
 
   return (

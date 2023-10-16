@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import Background from '../../components/Background/Background'
 import Contact from '../../components/Contact/Contact'
 import Hero from '../../components/Hero/Hero'
@@ -6,6 +7,30 @@ import Qualities from '../../components/Qualities/Qualities'
 import './HomePage.css'
 import { Col, Row } from 'react-bootstrap'
 const HomePage = ({ language }) => {
+
+    const [componentsLoaded, setComponentsLoaded] = useState({
+        qualities: false,
+        background: false,
+        projects: false,
+        contact: false,
+    });
+
+    useEffect(() => {
+
+        const loadComponents = async () => {
+            await new Promise((resolve) => {
+                window.addEventListener('load', () => {
+                    resolve();
+                    setComponentsLoaded({ qualities: true, background: true, projects: true, contact: true });
+                });
+            });
+        };
+
+        loadComponents();
+    }, []);
+
+
+
 
 
     return (
@@ -26,22 +51,26 @@ const HomePage = ({ language }) => {
             <Row className='justify-content-center'>
                 <Col xs='12' lg='10'>
                     <section>
-                        <Qualities language={language} />
-                        <Background language={language} />
+                        {componentsLoaded.qualities && (
+                            <>
+                                <Qualities language={language} />
+                                <Background language={language} />
+                            </>
+                        )}
                     </section>
                 </Col>
             </Row>
             <Row>
                 <Col xs='12' lg='12'>
                     <section id="projects-section" role="region" aria-label={language === 'ENG' ? 'Projects Section' : 'Sección de Proyectos'}>
-                        <Projects language={language} />
+                        {componentsLoaded.projects && <Projects language={language} />}
                     </section>
                 </Col>
             </Row>
             <Row>
                 <Col xs='12' lg='12'>
                     <section id="contact-me-section" role="region" aria-label={language === 'ENG' ? 'Contact Me Section' : 'Sección de Contacto'}>
-                        <Contact language={language} />
+                        {componentsLoaded.contact && <Contact language={language} />}
                     </section>
                 </Col>
             </Row>
