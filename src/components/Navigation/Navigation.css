@@ -75,7 +75,8 @@
 }
 
 .nav,
-.navi-label {
+.navi-label,
+logo-contact-mini {
 
     visibility: hidden;
     display: none;
@@ -376,7 +377,6 @@
 
     .logo-contact-mini {
         width: 40px;
-
     }
 
     .menu-icon:checked+label,

@@ -6,7 +6,6 @@ const AppRoutes = ({ language }) => {
     return (
         <Routes>
             <Route path={'/'} element={<HomePage language={language} />} />
-
         </Routes>
     )
 }
