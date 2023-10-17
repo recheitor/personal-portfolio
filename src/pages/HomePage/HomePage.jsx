@@ -48,8 +48,6 @@ const HomePage = ({ language }) => {
                     </section>
                 </Col>
             </Row>
-
-
         </>
     )
 }
