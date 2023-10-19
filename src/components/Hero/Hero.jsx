@@ -16,7 +16,7 @@ const Hero = ({ language }) => {
                         </h3>
                     </div>
                     <h4 role="heading" aria-level="3">
-                        {language === 'ENG' ? "I'm a Web Developer Full Stack" : "Soy Desarrollador Web Full Stack"}
+                        {language === 'ENG' ? "I'm a Full Stack Web Developer" : "Soy Desarrollador Web Full Stack"}
                     </h4>
                     <div id="about-me-section">
                     </div>
