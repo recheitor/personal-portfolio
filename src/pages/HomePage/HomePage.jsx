@@ -10,12 +10,7 @@ import { Col, Row } from 'react-bootstrap'
 const HomePage = ({ language }) => {
     return (
         <>
-            <Row className='justify-content-center' role="region" aria-label={language === 'ENG' ? 'Homepage' : 'Página de inicio'}>
-                <Col xs='12' lg='12'>
-                    <section id='hero-blank-section' role="region" aria-label={language === 'ENG' ? 'Hero Section' : 'Sección de Intro'}>
-                    </section>
-                </Col>
-            </Row>
+
             <Row>
                 <Col xs='12' lg='12'>
                     <section role="main">
@@ -25,7 +20,7 @@ const HomePage = ({ language }) => {
             </Row>
             <Row className='justify-content-center'>
                 <Col xs='12' lg='10'>
-                    <section>
+                    <section id="about-me-section">
                         <>
                             <Qualities language={language} />
                             <Background language={language} />

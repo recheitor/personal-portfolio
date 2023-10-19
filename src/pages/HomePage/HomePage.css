@@ -1,13 +1,10 @@
-#hero-blank-section {
-    padding-top: 140px;
-}
-
 #about-me-section {
-    padding-top: 0px;
+    margin-top: 0px;
+    padding-top: 90px;
 }
 
 #projects-section {
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 #contact-me-section {
@@ -15,10 +12,8 @@
 }
 
 @media screen and (max-width: 991px) {
-
-    #hero-blank-section {
-        padding-top: 30px;
+    #about-me-section {
+        margin-top: 0px;
+        padding-top: 60px;
     }
-
-
 }

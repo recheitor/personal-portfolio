@@ -7,10 +7,13 @@
     height: 90%;
 }
 
-.hero {
-    padding-top: 70px;
-    padding-bottom: 120px;
+.hero-background {
     background: radial-gradient(ellipse closest-side at 60% 50%, rgb(21, 247, 187), #ffffff);
+}
+
+.hero {
+    padding-top: 210px;
+    padding-bottom: 60px;
 }
 
 .hero h2,

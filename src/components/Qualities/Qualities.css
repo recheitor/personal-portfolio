@@ -18,8 +18,7 @@
 }
 
 .qualities-card {
-    min-height: fit-content;
-    min-width: fit-content;
+    width: 22% !important;
     padding-bottom: 10px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -57,6 +56,13 @@
 
     .qualities-title h2 {
         font-size: 2.2em;
+    }
+}
+
+@media (max-width:800px) {
+    .qualities-card {
+        width: 44% !important;
+
     }
 }
 
