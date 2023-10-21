@@ -15,5 +15,14 @@
     #about-me-section {
         margin-top: 0px;
         padding-top: 60px;
+
+    }
+
+    #projects-section {
+        padding-top: 0px;
+    }
+
+    #contact-me-section {
+        padding-top: 0px;
     }
 }

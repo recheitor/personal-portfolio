@@ -123,7 +123,10 @@
 }
 
 @media (max-width: 600px) {
+    .contact-card {
+        padding-top: 50px;
 
+    }
 
     .contact-card h3,
     .contact-card span {

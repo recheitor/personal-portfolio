@@ -74,7 +74,8 @@
     }
 
     .background-blur {
-        margin-bottom: 20px;
+        padding-bottom: 0;
+        margin-bottom: 0px;
         margin-top: 50px;
         border-radius: 0px;
         background: linear-gradient(to left, #B8CDF8 1%, transparent);
