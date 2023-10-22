@@ -6,12 +6,14 @@ const Hero = ({ language }) => {
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
-        window.onload = () => {
+        const handleLoad = () => {
             setLoaded(true);
         };
 
+        window.addEventListener('load', handleLoad);
+
         return () => {
-            window.onload = null;
+            window.removeEventListener('load', handleLoad);
         };
     }, []);
 
