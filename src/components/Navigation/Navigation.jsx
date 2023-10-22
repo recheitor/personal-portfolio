@@ -43,7 +43,7 @@ const Navigation = ({ language, setLanguage }) => {
             <Row className='navi justify-content-between align-items-center' role="navigation" aria-label={language === 'ENG' ? 'Main Navigation' : 'Navegación Principal'}>
                 <Col xs='3' lg='3'>
                     <div className={`nav-head ${scrolling ? 'scroll-down' : ''}`}>
-                        <a href="#intro-blank-section"> <h3>Alejandro Reche</h3></a>
+                        <a href="#intro-blank-section"> <h3><span>Alejandro Reche</span></h3> </a>
                     </div>
                 </Col>
                 <Col xs='8' lg='6'>
