@@ -19,13 +19,10 @@ const HomePage = ({ language }) => {
                 </Col>
             </Row>
             <Row className='justify-content-center'>
-                <Col xs='12' lg='10'>
+                <Col xs='12' lg='10' >
                     <section id="about-me-section">
-                        <>
-                            <Qualities language={language} />
-                            <Background language={language} />
-                        </>
-
+                        <Qualities language={language} />
+                        <Background language={language} />
                     </section>
                 </Col>
             </Row>
