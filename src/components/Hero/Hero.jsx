@@ -8,9 +8,9 @@ const Hero = ({ language }) => {
             <div className='hero-background'>
                 <Row className='hero justify-content-center align-items-center' role="banner" aria-label={language === 'ENG' ? 'Hero Section' : 'Sección del héroe'}>
                     <Col xs='8' lg='7' className='d-flex flex-column align-items-center text-center'>
-                        <h2 role="heading" aria-level="1">
+                        <h1 role="heading" aria-level="1">
                             {language === 'ENG' ? 'Hey! I am' : '¡Hola! Soy'}
-                        </h2>
+                        </h1>
                         <div>
                             <h3 role="heading" aria-level="2">
                                 Alejandro Reche

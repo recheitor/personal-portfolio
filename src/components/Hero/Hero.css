@@ -16,7 +16,7 @@
     padding-bottom: 60px;
 }
 
-.hero h2,
+.hero h1,
 .hero h3,
 .hero h4 {
     font-family: 'Lexend', sans-serif;
@@ -39,7 +39,7 @@
 }
 
 @media (max-width: 1250px) {
-    .hero h2 {
+    .hero h1 {
         font-size: 3em;
     }
 
@@ -58,7 +58,7 @@
 }
 
 @media (max-width: 810px) {
-    .hero h2 {
+    .hero h1 {
         font-size: 2.5em;
     }
 
@@ -84,7 +84,7 @@
         padding-top: 130px;
     }
 
-    .hero h2,
+    .hero h1,
     .hero h3 {
         font-size: 1.7em;
         margin-bottom: 0px;
