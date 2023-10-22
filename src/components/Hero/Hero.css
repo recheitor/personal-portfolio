@@ -8,7 +8,7 @@
 }
 
 .hero-background {
-    background: radial-gradient(ellipse closest-side at 60% 50%, rgb(21, 247, 187), #ffffff);
+    background: radial-gradient(ellipse closest-side at 60% 60%, rgb(21, 247, 187), #ffffff);
 }
 
 .hero {
@@ -83,9 +83,11 @@
 }
 
 @media (max-width: 600px) {
+    .hero-background {
+        background: radial-gradient(ellipse closest-side at 60% 60%, rgb(21, 247, 187), #ffffff);
+    }
 
     .hero {
-        background: radial-gradient(ellipse closest-side at 67% 40%, rgb(21, 247, 187), #ffffff);
         padding-bottom: 70px;
         padding-top: 130px;
     }
