@@ -71,7 +71,7 @@ const Background = ({ language }) => {
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox" />
                                             <label htmlFor="rotate-checkbox" className="rotate-label">
-                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" />
+                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" loading="lazy" />
                                             </label>
                                         </Col>
                                         <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
@@ -94,7 +94,7 @@ const Background = ({ language }) => {
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox2" />
                                             <label htmlFor="rotate-checkbox2" className="rotate-label">
-                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" />
+                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" loading="lazy" />
                                             </label>
                                         </Col>
                                         <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
@@ -114,7 +114,7 @@ const Background = ({ language }) => {
                                         <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox3" />
                                             <label htmlFor="rotate-checkbox3" className="rotate-label">
-                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" />
+                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" loading="lazy" />
                                             </label>
                                         </Col>
                                         <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
