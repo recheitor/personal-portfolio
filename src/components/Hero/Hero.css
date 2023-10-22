@@ -14,8 +14,6 @@
 .hero {
     padding-top: 210px;
     padding-bottom: 60px;
-    opacity: 0;
-    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 
 .hero h1,
@@ -40,9 +38,6 @@
     font-size: 2.5em;
 }
 
-.fade-in {
-    opacity: 1;
-}
 
 @media (max-width: 1250px) {
     .hero h1 {
