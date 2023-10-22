@@ -13,17 +13,20 @@
     padding-top: 15px;
     padding-bottom: 15px;
     color: rgba(28, 11, 112, 0.0);
-    background: linear-gradient(to right, #B8CDF8 -10%, rgba(255, 255, 255, 0.4) 50%);
+    background-color: (255, 255, 255, 0);
     padding-left: 40px;
     margin: 0;
     width: 100vw;
-    backdrop-filter: blur(2px);
-    transition: color 0.5s;
-
+    transition: color 0.5s, background 0.5s !important
 }
 
 .scroll-down h3 {
+    background-color: white;
     color: #1c0b70;
+    transition: color 0.5s,
+        background 0.5s, backdrop-filter 0.5s;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0.3px 10px 1px rgba(0, 0, 0, 0.1);
 }
 
 
