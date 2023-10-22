@@ -1,10 +1,27 @@
 import { Col, Row, } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Navigation.css'
-import { useState } from 'react'
-
+import { useEffect, useState } from 'react'
 
 const Navigation = ({ language, setLanguage }) => {
+
+    const [scrolling, setScrolling] = useState(false);
+
+    useEffect(() => {
+        function handleScroll() {
+            if (window.scrollY > 200) {
+                setScrolling(true);
+            } else {
+                setScrolling(false);
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     const handleLanguageEspClick = () => {
         setLanguage('ESP')
@@ -24,9 +41,9 @@ const Navigation = ({ language, setLanguage }) => {
     return (
         <>
             <Row className='navi justify-content-between align-items-center' role="navigation" aria-label={language === 'ENG' ? 'Main Navigation' : 'Navegación Principal'}>
-                <Col xs='2' lg='3'>
-                    <div className='nav-head'>
-                        <a href="#intro-blank-section"> <h3>A.Reche</h3></a>
+                <Col xs='3' lg='3'>
+                    <div className={`nav-head ${scrolling ? 'scroll-down' : ''}`}>
+                        <a href="#intro-blank-section"> <h3>Alejandro Reche</h3></a>
                     </div>
                 </Col>
                 <Col xs='8' lg='6'>
