@@ -44,11 +44,19 @@ const Projects = ({ language }) => {
                         </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <h4>INSTRUSTERIL</h4>
-                            <a href="https://www.instrusteril.es" target="_blank">
+                            <a href="https://instrusteril.es" target="_blank">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/kjx5i1i6bk8jd8ro9og0" alt="JUMPER TRAVELER Project screenshot" role="img" aria-label="JUMPER TRAVELER Project Screenshot" loading="lazy" />
                             </a>
                             <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
                             <h5>HTML - CSS - ReactJS</h5>
+                        </Col>
+                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
+                            <h4>CLASES PIANO MADRID</h4>
+                            <a href="https://clasespianomadrid.com" target="_blank">
+                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/cx2khtovhcdsdmcbcns8" alt="CLASES PIANO MADRID Project screenshot" role="img" aria-label="CLASES PIANO MADRID Project Screenshot" loading="lazy" />
+                            </a>
+                            <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
+                            <h5>HTML - CSS - VueJS</h5>
                         </Col>
                     </Row>
                 </Col>
