@@ -53,6 +53,13 @@
     }
 }
 
+@media (max-width: 1270px) {
+
+    .projects-card-mini.happycode-container {
+        display: none;
+    }
+}
+
 @media (max-width: 1201px) {
     .projects-card-mini img {
         width: 200px;
