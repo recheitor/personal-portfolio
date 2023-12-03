@@ -55,7 +55,7 @@
 
 .nav-sections {
     font-family: 'Lexend', sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.3em;
     position: relative;
 }
@@ -86,8 +86,6 @@
 }
 
 .nav-language a {
-    font-size: 2em;
-
     font-family: 'Lexend', sans-serif;
     font-weight: 300;
     font-size: 1.2em;
