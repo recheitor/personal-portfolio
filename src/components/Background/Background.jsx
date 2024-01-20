@@ -12,6 +12,8 @@ const Background = ({ language }) => {
         const additionalInfo2 = document.getElementById('additional-info2');
         const checkbox3 = document.getElementById('rotate-checkbox3');
         const additionalInfo3 = document.getElementById('additional-info3');
+        const checkbox4 = document.getElementById('rotate-checkbox4');
+        const additionalInfo4 = document.getElementById('additional-info4');
 
 
         checkbox.addEventListener('change', function () {
@@ -50,6 +52,18 @@ const Background = ({ language }) => {
                 additionalInfo3.style.visibility = 'hidden';
             }
         });
+        checkbox4.addEventListener('change', function () {
+            if (this.checked) {
+                additionalInfo4.style.maxHeight = additionalInfo3.scrollHeight + "px";
+                additionalInfo4.style.opacity = 1;
+                additionalInfo4.style.visibility = 'visible';
+
+            } else {
+                additionalInfo4.style.maxHeight = null;
+                additionalInfo4.style.opacity = 0;
+                additionalInfo4.style.visibility = 'hidden';
+            }
+        });
     }, [])
 
 
@@ -63,12 +77,12 @@ const Background = ({ language }) => {
                             <Row>
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
-                                        <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
+                                        <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
                                             <h4 role="heading" aria-level="2">
                                                 {language === 'ENG' ? 'Zimvie CNC Programmer' : 'Zimvie Programador CNC'}
                                             </h4>
                                         </Col>
-                                        <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
+                                        <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox" />
                                             <label htmlFor="rotate-checkbox" className="rotate-label">
                                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" loading="lazy" />
@@ -86,12 +100,12 @@ const Background = ({ language }) => {
 
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
-                                        <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
+                                        <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
                                             <h4 role="heading" aria-level="2">
                                                 {language === 'ENG' ? 'IronHack Web Development' : 'IronHack Desarrollo Web'}
                                             </h4>
                                         </Col>
-                                        <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
+                                        <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox2" />
                                             <label htmlFor="rotate-checkbox2" className="rotate-label">
                                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" loading="lazy" />
@@ -104,14 +118,15 @@ const Background = ({ language }) => {
                                         </Col>
                                     </Row>
                                 </Col>
+
                                 <Col xs='12' lg='12' className='background-card-mini'>
                                     <Row className='justify-content-center'>
-                                        <Col xs='8' lg='8' className='text-center d-flex align-items-center justify-content-center'>
+                                        <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
                                             <h4 role="heading" aria-level="2">
-                                                {language === 'ENG' ? 'Coursera Web Development' : 'Coursera Desarrollo Web'}
+                                                {language === 'ENG' ? 'IronHack DevOps' : 'IronHack DevOps'}
                                             </h4>
                                         </Col>
-                                        <Col xs='4' lg='2' className='text-center d-flex align-items-center justify-content-center'>
+                                        <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
                                             <input type="checkbox" id="rotate-checkbox3" />
                                             <label htmlFor="rotate-checkbox3" className="rotate-label">
                                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" loading="lazy" />
@@ -119,6 +134,27 @@ const Background = ({ language }) => {
                                         </Col>
                                         <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
                                             <div className="additional-info3" id="additional-info3" role="region" aria-label="Additional Information">
+                                                <p>240h Docker - Terraform - Kubernetes</p>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </Col>
+
+                                <Col xs='12' lg='12' className='background-card-mini'>
+                                    <Row className='justify-content-center'>
+                                        <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
+                                            <h4 role="heading" aria-level="2">
+                                                {language === 'ENG' ? 'Coursera Web Development' : 'Coursera Desarrollo Web'}
+                                            </h4>
+                                        </Col>
+                                        <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
+                                            <input type="checkbox" id="rotate-checkbox4" />
+                                            <label htmlFor="rotate-checkbox4" className="rotate-label">
+                                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697025561/d25mmkai40yr9fzu7h0r.webp" alt="Rotating Image" role="img" aria-label="Rotating Image" loading="lazy" />
+                                            </label>
+                                        </Col>
+                                        <Col xs='12' lg='12' className='text-center d-flex align-items-center justify-content-center'>
+                                            <div className="additional-info4" id="additional-info4" role="region" aria-label="Additional Information">
                                                 <p>192h Full Stack - Python</p>
                                             </div>
                                         </Col>
