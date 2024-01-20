@@ -26,7 +26,7 @@ const HomePage = ({ language }) => {
                     <section id="about-me-section">
                         <Qualities language={language} />
                         <Suspense fallback={<div>Loading...</div>}>
-                            <Background />
+                            <Background language={language}/>
                         </Suspense>
                         {/* <Background language={language} /> */}
                     </section>
@@ -37,7 +37,7 @@ const HomePage = ({ language }) => {
                     <section id="projects-section" role="region" aria-label={language === 'ENG' ? 'Projects Section' : 'Sección de Proyectos'}>
                         {/* <Projects language={language} /> */}
                         <Suspense fallback={<div>Loading...</div>}>
-                            <Projects />
+                            <Projects language={language}/>
                         </Suspense>
                     </section>
                 </Col>
@@ -47,7 +47,7 @@ const HomePage = ({ language }) => {
                     <section id="contact-me-section" role="region" aria-label={language === 'ENG' ? 'Contact Me Section' : 'Sección de Contacto'}>
                         {/* <Contact language={language} /> */}
                         <Suspense fallback={<div>Loading...</div>}>
-                            <Contact />
+                            <Contact language={language}/>
                         </Suspense>
                     </section>
                 </Col>

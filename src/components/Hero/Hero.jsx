@@ -7,9 +7,6 @@ const Hero = ({ language }) => {
 
     useEffect(() => {
         setLoaded(true);
-
-
-
     }, []);
 
     return (
